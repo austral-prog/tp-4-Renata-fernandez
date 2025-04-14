@@ -4,5 +4,5 @@ def leap_year():
 		print(f"El año {year} es bisiesto")
 	elif year%400 == 0:
 		print(f"El año {year} es bisiesto")
-	else 
+	else:
 		print(f"El año {year} no es bisiesto")
