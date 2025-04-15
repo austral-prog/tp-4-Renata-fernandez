@@ -8,7 +8,7 @@ def line():
     print(f"El coeficiente X1 su ecuacion de la recta es: {X1}")
     print(f"El coeficiente X2 su ecuacion de la recta es: {X2}")
     
-    print("\n Para la siguiente ecuacion:")
+    print("\nPara la siguiente ecuación:")
     print(f"\tY= {A}X + {B}")
     
     Y1 = (A*X1)+B
@@ -19,6 +19,5 @@ def line():
     print(f"\n Dados los siguiente puntos:") 
     print(f"\tP1 {P1}")
     print(f"\tP2 {P2}")
-    Distancia= ((X1-X2)**2) + ((Y1-Y2)**2))**(1/2) 
+    Distancia = (((X1-X2)**2) + ((Y1-Y2)**2))**(1/2) 
     print(f"\nLa distancia entre ellos es: {Distancia}")
-  
